@@ -1,0 +1,176 @@
+\hypertarget{class_pieza_de_ajedrez}{}\doxysection{Pieza\+De\+Ajedrez Class Reference}
+\label{class_pieza_de_ajedrez}\index{PiezaDeAjedrez@{PiezaDeAjedrez}}
+
+
+Class representing a chess piece.  
+
+
+
+
+{\ttfamily \#include $<$Pieza\+De\+Ajedrez.\+h$>$}
+
+Inheritance diagram for Pieza\+De\+Ajedrez\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_pieza_de_ajedrez}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pieza_de_ajedrez_a10824df04483218533ee4aef3652d56e}{Pieza\+De\+Ajedrez}} (std\+::string nombreP, char colorP, int valorP, int filaP, char colP)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_pieza_de_ajedrez_ab79e556771827f9ed2c495f110126e29}{Pieza\+De\+Ajedrez}} (const \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} \&orig)
+\begin{DoxyCompactList}\small\item\em Copy constructor for the \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pieza_de_ajedrez_ad29ee52086fa5fb442d8e1f61be57569}\label{class_pieza_de_ajedrez_ad29ee52086fa5fb442d8e1f61be57569}} 
+virtual \mbox{\hyperlink{class_pieza_de_ajedrez_ad29ee52086fa5fb442d8e1f61be57569}{$\sim$\+Pieza\+De\+Ajedrez}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pieza_de_ajedrez_ad42824eddaf94992364e07130a012439}{Set\+Posicion\+Fila}} (int posicion\+Fila)
+\begin{DoxyCompactList}\small\item\em Sets the row position of the chess piece. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_pieza_de_ajedrez_a1af162ec369ee6d9ae80d4f1d4ddf500}{Get\+Posicion\+Fila}} () const
+\begin{DoxyCompactList}\small\item\em Gets the row position of the chess piece. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{class_pieza_de_ajedrez_a0ac47e5003a7b050304f72d295129b7d}{Get\+Color}} () const
+\begin{DoxyCompactList}\small\item\em Gets the color of the chess piece. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_pieza_de_ajedrez_a8c68309f6ae0f8a00e621a40db87049e}{Get\+Nombre}} () const
+\begin{DoxyCompactList}\small\item\em Gets the name of the chess piece. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_pieza_de_ajedrez_a70dd00d4a0dac86e30adb9abc6243d22}{mover}} (int fila, int col)
+\begin{DoxyCompactList}\small\item\em Moves the chess piece to a new position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a chess piece. 
+
+This class contains all the information about a chess piece, including its name, color, value, and position on the board 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_pieza_de_ajedrez_a10824df04483218533ee4aef3652d56e}\label{class_pieza_de_ajedrez_a10824df04483218533ee4aef3652d56e}} 
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{PiezaDeAjedrez()}{PiezaDeAjedrez()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Pieza\+De\+Ajedrez\+::\+Pieza\+De\+Ajedrez (\begin{DoxyParamCaption}\item[{std\+::string}]{nombreP,  }\item[{char}]{colorP,  }\item[{int}]{valorP,  }\item[{int}]{filaP,  }\item[{char}]{colP }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombreP} & The name of the chess piece \\
+\hline
+{\em colorP} & The color of the chess piece \\
+\hline
+{\em valorP} & The value of the chess piece \\
+\hline
+{\em filaP} & The row position of the chess piece on the board \\
+\hline
+{\em colP} & The column position of the chess piece on the board \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pieza_de_ajedrez_ab79e556771827f9ed2c495f110126e29}\label{class_pieza_de_ajedrez_ab79e556771827f9ed2c495f110126e29}} 
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{PiezaDeAjedrez()}{PiezaDeAjedrez()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Pieza\+De\+Ajedrez\+::\+Pieza\+De\+Ajedrez (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} \&}]{orig }\end{DoxyParamCaption})}
+
+
+
+Copy constructor for the \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em orig} & The original \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} object to be copied \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pieza_de_ajedrez_a0ac47e5003a7b050304f72d295129b7d}\label{class_pieza_de_ajedrez_a0ac47e5003a7b050304f72d295129b7d}} 
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!GetColor@{GetColor}}
+\index{GetColor@{GetColor}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{GetColor()}{GetColor()}}
+{\footnotesize\ttfamily char Pieza\+De\+Ajedrez\+::\+Get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the color of the chess piece. 
+
+\begin{DoxyReturn}{Returns}
+The color of the chess piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pieza_de_ajedrez_a8c68309f6ae0f8a00e621a40db87049e}\label{class_pieza_de_ajedrez_a8c68309f6ae0f8a00e621a40db87049e}} 
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!GetNombre@{GetNombre}}
+\index{GetNombre@{GetNombre}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{GetNombre()}{GetNombre()}}
+{\footnotesize\ttfamily std\+::string Pieza\+De\+Ajedrez\+::\+Get\+Nombre (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the name of the chess piece. 
+
+\begin{DoxyReturn}{Returns}
+The name of the chess piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pieza_de_ajedrez_a1af162ec369ee6d9ae80d4f1d4ddf500}\label{class_pieza_de_ajedrez_a1af162ec369ee6d9ae80d4f1d4ddf500}} 
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!GetPosicionFila@{GetPosicionFila}}
+\index{GetPosicionFila@{GetPosicionFila}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{GetPosicionFila()}{GetPosicionFila()}}
+{\footnotesize\ttfamily int Pieza\+De\+Ajedrez\+::\+Get\+Posicion\+Fila (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the row position of the chess piece. 
+
+\begin{DoxyReturn}{Returns}
+The row position of the chess piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pieza_de_ajedrez_a70dd00d4a0dac86e30adb9abc6243d22}\label{class_pieza_de_ajedrez_a70dd00d4a0dac86e30adb9abc6243d22}} 
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!mover@{mover}}
+\index{mover@{mover}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{mover()}{mover()}}
+{\footnotesize\ttfamily void Pieza\+De\+Ajedrez\+::mover (\begin{DoxyParamCaption}\item[{int}]{fila,  }\item[{int}]{col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Moves the chess piece to a new position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fila} & The row increment for the move \\
+\hline
+{\em col} & The column increment for the move\\
+\hline
+{\em fila} & The row increment for the move \\
+\hline
+{\em col} & The column increment for the move \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::out\+\_\+of\+\_\+range} & if the new position is outside the board \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \mbox{\hyperlink{class_alfil_a6e2753be735a71997183204cdbfa3390}{Alfil}}.
+
+\mbox{\Hypertarget{class_pieza_de_ajedrez_ad42824eddaf94992364e07130a012439}\label{class_pieza_de_ajedrez_ad42824eddaf94992364e07130a012439}} 
+\index{PiezaDeAjedrez@{PiezaDeAjedrez}!SetPosicionFila@{SetPosicionFila}}
+\index{SetPosicionFila@{SetPosicionFila}!PiezaDeAjedrez@{PiezaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{SetPosicionFila()}{SetPosicionFila()}}
+{\footnotesize\ttfamily void Pieza\+De\+Ajedrez\+::\+Set\+Posicion\+Fila (\begin{DoxyParamCaption}\item[{int}]{posicion\+Fila }\end{DoxyParamCaption})}
+
+
+
+Sets the row position of the chess piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em posicion\+Fila} & The row position of the chess piece \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_pieza_de_ajedrez_8h}{Pieza\+De\+Ajedrez.\+h}}\item 
+Pieza\+De\+Ajedrez.\+cpp\end{DoxyCompactItemize}

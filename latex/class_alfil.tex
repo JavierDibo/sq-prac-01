@@ -1,0 +1,172 @@
+\hypertarget{class_alfil}{}\doxysection{Alfil Class Reference}
+\label{class_alfil}\index{Alfil@{Alfil}}
+
+
+This class represents a Bishop piece in a chess game.  
+
+
+
+
+{\ttfamily \#include $<$Alfil.\+h$>$}
+
+Inheritance diagram for Alfil\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_alfil}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_alfil_aa96281a58ca508cf34de8071fb38a314}{Alfil}} (std\+::string nombreP, char colorP, int valorP, int filaP, char colP, char \+\_\+color\+Casilla)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{class_alfil}{Alfil}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_alfil_aced529fe2d6823c148546c2576171d90}{Alfil}} (const \mbox{\hyperlink{class_alfil}{Alfil}} \&orig)
+\begin{DoxyCompactList}\small\item\em Copy constructor for the \mbox{\hyperlink{class_alfil}{Alfil}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_alfil_a79c348c8bf35ec185a5952e1b1448627}\label{class_alfil_a79c348c8bf35ec185a5952e1b1448627}} 
+virtual \mbox{\hyperlink{class_alfil_a79c348c8bf35ec185a5952e1b1448627}{$\sim$\+Alfil}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{class_alfil}{Alfil}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_alfil_ae57aaee5f6897e97d00f4fa320dfa868}{set\+Color\+Casilla}} (char color\+Casilla)
+\begin{DoxyCompactList}\small\item\em Sets the color of the square where the piece is located. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{class_alfil_ae899f156130339dcb6c068e242ead425}{get\+Color\+Casilla}} () const
+\begin{DoxyCompactList}\small\item\em Gets the color of the square where the piece is located. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_alfil_a6e2753be735a71997183204cdbfa3390}{mover}} (int fila, int col)
+\begin{DoxyCompactList}\small\item\em Moves the piece to a new location. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a Bishop piece in a chess game. 
+
+It inherits from the \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_alfil_aa96281a58ca508cf34de8071fb38a314}\label{class_alfil_aa96281a58ca508cf34de8071fb38a314}} 
+\index{Alfil@{Alfil}!Alfil@{Alfil}}
+\index{Alfil@{Alfil}!Alfil@{Alfil}}
+\doxysubsubsection{\texorpdfstring{Alfil()}{Alfil()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Alfil\+::\+Alfil (\begin{DoxyParamCaption}\item[{std\+::string}]{nombreP,  }\item[{char}]{colorP,  }\item[{int}]{valorP,  }\item[{int}]{filaP,  }\item[{char}]{colP,  }\item[{char}]{color\+Casilla }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{class_alfil}{Alfil}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombreP} & The name of the piece. \\
+\hline
+{\em colorP} & The color of the piece. \\
+\hline
+{\em valorP} & The value of the piece. \\
+\hline
+{\em filaP} & The row where the piece is located. \\
+\hline
+{\em colP} & The column where the piece is located. \\
+\hline
+{\em \+\_\+color\+Casilla} & The color of the square where the piece is located.\\
+\hline
+{\em nombreP} & The name of the bishop chess piece \\
+\hline
+{\em colorP} & The color of the bishop chess piece \\
+\hline
+{\em valorP} & The value of the bishop chess piece \\
+\hline
+{\em filaP} & The row position of the bishop chess piece on the board \\
+\hline
+{\em colP} & The column position of the bishop chess piece on the board \\
+\hline
+{\em color\+Casilla} & The color of the square where the bishop chess piece is placed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_alfil_aced529fe2d6823c148546c2576171d90}\label{class_alfil_aced529fe2d6823c148546c2576171d90}} 
+\index{Alfil@{Alfil}!Alfil@{Alfil}}
+\index{Alfil@{Alfil}!Alfil@{Alfil}}
+\doxysubsubsection{\texorpdfstring{Alfil()}{Alfil()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Alfil\+::\+Alfil (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_alfil}{Alfil}} \&}]{orig }\end{DoxyParamCaption})}
+
+
+
+Copy constructor for the \mbox{\hyperlink{class_alfil}{Alfil}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em orig} & The original \mbox{\hyperlink{class_alfil}{Alfil}} object to be copied.\\
+\hline
+{\em orig} & The original \mbox{\hyperlink{class_alfil}{Alfil}} object to be copied \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_alfil_ae899f156130339dcb6c068e242ead425}\label{class_alfil_ae899f156130339dcb6c068e242ead425}} 
+\index{Alfil@{Alfil}!getColorCasilla@{getColorCasilla}}
+\index{getColorCasilla@{getColorCasilla}!Alfil@{Alfil}}
+\doxysubsubsection{\texorpdfstring{getColorCasilla()}{getColorCasilla()}}
+{\footnotesize\ttfamily char Alfil\+::get\+Color\+Casilla (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the color of the square where the piece is located. 
+
+Gets the color of the square where the bishop chess piece is placed.
+
+\begin{DoxyReturn}{Returns}
+The color of the square.
+
+The color of the square 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_alfil_a6e2753be735a71997183204cdbfa3390}\label{class_alfil_a6e2753be735a71997183204cdbfa3390}} 
+\index{Alfil@{Alfil}!mover@{mover}}
+\index{mover@{mover}!Alfil@{Alfil}}
+\doxysubsubsection{\texorpdfstring{mover()}{mover()}}
+{\footnotesize\ttfamily void Alfil\+::mover (\begin{DoxyParamCaption}\item[{int}]{fila,  }\item[{int}]{col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Moves the piece to a new location. 
+
+Moves the bishop chess piece to a new position.
+
+
+\begin{DoxyParams}{Parameters}
+{\em fila} & The row to move the piece to. \\
+\hline
+{\em col} & The column to move the piece to.\\
+\hline
+{\em fila} & The row increment for the move \\
+\hline
+{\em col} & The column increment for the move \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{class_movimiento_invalido}{Movimiento\+Invalido}}} & if the move is invalid \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented from \mbox{\hyperlink{class_pieza_de_ajedrez_a70dd00d4a0dac86e30adb9abc6243d22}{Pieza\+De\+Ajedrez}}.
+
+\mbox{\Hypertarget{class_alfil_ae57aaee5f6897e97d00f4fa320dfa868}\label{class_alfil_ae57aaee5f6897e97d00f4fa320dfa868}} 
+\index{Alfil@{Alfil}!setColorCasilla@{setColorCasilla}}
+\index{setColorCasilla@{setColorCasilla}!Alfil@{Alfil}}
+\doxysubsubsection{\texorpdfstring{setColorCasilla()}{setColorCasilla()}}
+{\footnotesize\ttfamily void Alfil\+::set\+Color\+Casilla (\begin{DoxyParamCaption}\item[{char}]{color\+Casilla }\end{DoxyParamCaption})}
+
+
+
+Sets the color of the square where the piece is located. 
+
+Sets the color of the square where the bishop chess piece is placed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em color\+Casilla} & The color of the square.\\
+\hline
+{\em color\+Casilla} & The color of the square \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_alfil_8h}{Alfil.\+h}}\item 
+Alfil.\+cpp\end{DoxyCompactItemize}

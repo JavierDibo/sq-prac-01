@@ -1,0 +1,362 @@
+\hypertarget{class_partida_de_ajedrez}{}\doxysection{Partida\+De\+Ajedrez Class Reference}
+\label{class_partida_de_ajedrez}\index{PartidaDeAjedrez@{PartidaDeAjedrez}}
+
+
+Class representing a chess game.  
+
+
+
+
+{\ttfamily \#include $<$Partida\+De\+Ajedrez.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_partida_de_ajedrez_a219201cfe7210d55f038c775151f28fb}\label{class_partida_de_ajedrez_a219201cfe7210d55f038c775151f28fb}} 
+\mbox{\hyperlink{class_partida_de_ajedrez_a219201cfe7210d55f038c775151f28fb}{Partida\+De\+Ajedrez}} ()=default
+\begin{DoxyCompactList}\small\item\em Default constructor for the \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_partida_de_ajedrez_a8472cc78a20bfe05b196677abc18525b}{Partida\+De\+Ajedrez}} (int ddia, int mmes, int aanio)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_partida_de_ajedrez_a3100f8f2fdcb0d7eb23ed6fd857fa935}{Partida\+De\+Ajedrez}} (const \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} \&orig)
+\begin{DoxyCompactList}\small\item\em Copy constructor for the \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} class. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_partida_de_ajedrez_abce184755d5bc2fbe62333dee48c114f}{$\sim$\+Partida\+De\+Ajedrez}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_partida_de_ajedrez_a7bedc875a1963e9c2a54a101c38f223f}{Set\+Anio}} (int anio)
+\begin{DoxyCompactList}\small\item\em Sets the year of the chess match. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_partida_de_ajedrez_a8849ad6cd81d328ce178963e977b52ab}{Get\+Anio}} () const
+\begin{DoxyCompactList}\small\item\em Gets the year of the chess match. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_partida_de_ajedrez_a54b9394d9cdf42a48ab877ceaa2a7428}{Set\+Mes}} (int mes)
+\begin{DoxyCompactList}\small\item\em Sets the month of the chess match. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_partida_de_ajedrez_a5a15baf5a66b8f378cc20cc769e002cb}{Get\+Mes}} () const
+\begin{DoxyCompactList}\small\item\em Gets the month of the chess match. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_partida_de_ajedrez_ae5c7a274bd72a0af132c2d02d3920f82}{Set\+Dia}} (int dia)
+\begin{DoxyCompactList}\small\item\em Sets the day of the chess match. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_partida_de_ajedrez_ac64196b927e0122a3c1c75795b92082f}{Get\+Dia}} () const
+\begin{DoxyCompactList}\small\item\em Gets the day of the chess match. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_persona}{Persona}} $\ast$ \mbox{\hyperlink{class_partida_de_ajedrez_a158248461cb65300965f2af5b0988e13}{setjugador}} (int num\+Jugador, \mbox{\hyperlink{class_persona}{Persona}} $\ast$nuevo\+Jugador)
+\begin{DoxyCompactList}\small\item\em Sets a player for the chess match. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_partida_de_ajedrez_aa330ebc3a4b0ce294c9bc847784e3777}{nueva\+Pieza}} (std\+::string nombreP, char colorP, int valorP, int filaP, char colP)
+\begin{DoxyCompactList}\small\item\em Creates a new chess piece and adds it to the game. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} $\ast$ \mbox{\hyperlink{class_partida_de_ajedrez_ad9a2e7acad6cdd8e5eaa8d9d21ca78d3}{get\+Pieza}} (int pos)
+\begin{DoxyCompactList}\small\item\em Retrieves a chess piece from the game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_partida_de_ajedrez_af14b2f99e86d3fd77111a01e3d4e2dbe}{num\+Piezass}} (char c)
+\begin{DoxyCompactList}\small\item\em Counts the number of chess pieces of a specific color. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_partida_de_ajedrez_a71620fc73120cbcfcead526032eeab17}{mover}} (int pieza, int inc\+Fila, int inc\+Col)
+\begin{DoxyCompactList}\small\item\em Moves a chess piece to a new position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_partida_de_ajedrez_a8cd8f5f02221d2c600bb8dff8d89026f}\label{class_partida_de_ajedrez_a8cd8f5f02221d2c600bb8dff8d89026f}} 
+static const int {\bfseries M\+A\+X\+\_\+\+P\+I\+E\+Z\+AS} = 32
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a chess game. 
+
+This class contains all the information about a chess game, including the date, the players, and the pieces 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a8472cc78a20bfe05b196677abc18525b}\label{class_partida_de_ajedrez_a8472cc78a20bfe05b196677abc18525b}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{PartidaDeAjedrez()}{PartidaDeAjedrez()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Partida\+De\+Ajedrez\+::\+Partida\+De\+Ajedrez (\begin{DoxyParamCaption}\item[{int}]{ddia,  }\item[{int}]{mmes,  }\item[{int}]{aanio }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ddia} & The day of the chess match \\
+\hline
+{\em mmes} & The month of the chess match \\
+\hline
+{\em aanio} & The year of the chess match \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a3100f8f2fdcb0d7eb23ed6fd857fa935}\label{class_partida_de_ajedrez_a3100f8f2fdcb0d7eb23ed6fd857fa935}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{PartidaDeAjedrez()}{PartidaDeAjedrez()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Partida\+De\+Ajedrez\+::\+Partida\+De\+Ajedrez (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} \&}]{orig }\end{DoxyParamCaption})}
+
+
+
+Copy constructor for the \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em orig} & The original \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} object to be copied \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_partida_de_ajedrez_abce184755d5bc2fbe62333dee48c114f}\label{class_partida_de_ajedrez_abce184755d5bc2fbe62333dee48c114f}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!````~PartidaDeAjedrez@{$\sim$PartidaDeAjedrez}}
+\index{````~PartidaDeAjedrez@{$\sim$PartidaDeAjedrez}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{$\sim$PartidaDeAjedrez()}{~PartidaDeAjedrez()}}
+{\footnotesize\ttfamily Partida\+De\+Ajedrez\+::$\sim$\+Partida\+De\+Ajedrez (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor for the \mbox{\hyperlink{class_partida_de_ajedrez}{Partida\+De\+Ajedrez}} class. 
+
+Deletes all the chess pieces and sets the pointers to null 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a8849ad6cd81d328ce178963e977b52ab}\label{class_partida_de_ajedrez_a8849ad6cd81d328ce178963e977b52ab}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!GetAnio@{GetAnio}}
+\index{GetAnio@{GetAnio}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{GetAnio()}{GetAnio()}}
+{\footnotesize\ttfamily int Partida\+De\+Ajedrez\+::\+Get\+Anio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the year of the chess match. 
+
+\begin{DoxyReturn}{Returns}
+The year of the chess match 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_partida_de_ajedrez_ac64196b927e0122a3c1c75795b92082f}\label{class_partida_de_ajedrez_ac64196b927e0122a3c1c75795b92082f}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!GetDia@{GetDia}}
+\index{GetDia@{GetDia}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{GetDia()}{GetDia()}}
+{\footnotesize\ttfamily int Partida\+De\+Ajedrez\+::\+Get\+Dia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the day of the chess match. 
+
+\begin{DoxyReturn}{Returns}
+The day of the chess match 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a5a15baf5a66b8f378cc20cc769e002cb}\label{class_partida_de_ajedrez_a5a15baf5a66b8f378cc20cc769e002cb}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!GetMes@{GetMes}}
+\index{GetMes@{GetMes}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{GetMes()}{GetMes()}}
+{\footnotesize\ttfamily int Partida\+De\+Ajedrez\+::\+Get\+Mes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the month of the chess match. 
+
+\begin{DoxyReturn}{Returns}
+The month of the chess match 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_partida_de_ajedrez_ad9a2e7acad6cdd8e5eaa8d9d21ca78d3}\label{class_partida_de_ajedrez_ad9a2e7acad6cdd8e5eaa8d9d21ca78d3}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!getPieza@{getPieza}}
+\index{getPieza@{getPieza}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{getPieza()}{getPieza()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_pieza_de_ajedrez}{Pieza\+De\+Ajedrez}} $\ast$ Partida\+De\+Ajedrez\+::get\+Pieza (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Retrieves a chess piece from the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & The position of the chess piece in the array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the chess piece
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & The position of the chess piece in the array \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::range\+\_\+error} & if the position is invalid \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+A pointer to the chess piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a71620fc73120cbcfcead526032eeab17}\label{class_partida_de_ajedrez_a71620fc73120cbcfcead526032eeab17}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!mover@{mover}}
+\index{mover@{mover}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{mover()}{mover()}}
+{\footnotesize\ttfamily void Partida\+De\+Ajedrez\+::mover (\begin{DoxyParamCaption}\item[{int}]{pieza,  }\item[{int}]{inc\+Fila,  }\item[{int}]{inc\+Col }\end{DoxyParamCaption})}
+
+
+
+Moves a chess piece to a new position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pieza} & The position of the chess piece in the array \\
+\hline
+{\em inc\+Fila} & The row increment for the move \\
+\hline
+{\em inc\+Col} & The column increment for the move\\
+\hline
+{\em pieza} & The position of the chess piece in the array \\
+\hline
+{\em inc\+Fila} & The row increment for the move \\
+\hline
+{\em inc\+Col} & The column increment for the move \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::range\+\_\+error} & if the position of the chess piece is invalid \\
+\hline
+{\em \mbox{\hyperlink{class_movimiento_invalido}{Movimiento\+Invalido}}} & if the move is invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_partida_de_ajedrez_aa330ebc3a4b0ce294c9bc847784e3777}\label{class_partida_de_ajedrez_aa330ebc3a4b0ce294c9bc847784e3777}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!nuevaPieza@{nuevaPieza}}
+\index{nuevaPieza@{nuevaPieza}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{nuevaPieza()}{nuevaPieza()}}
+{\footnotesize\ttfamily void Partida\+De\+Ajedrez\+::nueva\+Pieza (\begin{DoxyParamCaption}\item[{std\+::string}]{nombreP,  }\item[{char}]{colorP,  }\item[{int}]{valorP,  }\item[{int}]{filaP,  }\item[{char}]{colP }\end{DoxyParamCaption})}
+
+
+
+Creates a new chess piece and adds it to the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombreP} & The name of the chess piece \\
+\hline
+{\em colorP} & The color of the chess piece \\
+\hline
+{\em valorP} & The value of the chess piece \\
+\hline
+{\em filaP} & The row position of the chess piece on the board \\
+\hline
+{\em colP} & The column position of the chess piece on the board\\
+\hline
+{\em nombreP} & The name of the chess piece \\
+\hline
+{\em colorP} & The color of the chess piece \\
+\hline
+{\em valorP} & The value of the chess piece \\
+\hline
+{\em filaP} & The row position of the chess piece on the board \\
+\hline
+{\em colP} & The column position of the chess piece on the board \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::bad\+\_\+alloc} & if memory allocation for the new piece fails \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_partida_de_ajedrez_af14b2f99e86d3fd77111a01e3d4e2dbe}\label{class_partida_de_ajedrez_af14b2f99e86d3fd77111a01e3d4e2dbe}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!numPiezass@{numPiezass}}
+\index{numPiezass@{numPiezass}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{numPiezass()}{numPiezass()}}
+{\footnotesize\ttfamily int Partida\+De\+Ajedrez\+::num\+Piezass (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Counts the number of chess pieces of a specific color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The color of the chess pieces to count \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of chess pieces of the specified color 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a7bedc875a1963e9c2a54a101c38f223f}\label{class_partida_de_ajedrez_a7bedc875a1963e9c2a54a101c38f223f}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!SetAnio@{SetAnio}}
+\index{SetAnio@{SetAnio}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{SetAnio()}{SetAnio()}}
+{\footnotesize\ttfamily void Partida\+De\+Ajedrez\+::\+Set\+Anio (\begin{DoxyParamCaption}\item[{int}]{anio }\end{DoxyParamCaption})}
+
+
+
+Sets the year of the chess match. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em anio} & The year of the chess match \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_partida_de_ajedrez_ae5c7a274bd72a0af132c2d02d3920f82}\label{class_partida_de_ajedrez_ae5c7a274bd72a0af132c2d02d3920f82}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!SetDia@{SetDia}}
+\index{SetDia@{SetDia}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{SetDia()}{SetDia()}}
+{\footnotesize\ttfamily void Partida\+De\+Ajedrez\+::\+Set\+Dia (\begin{DoxyParamCaption}\item[{int}]{dia }\end{DoxyParamCaption})}
+
+
+
+Sets the day of the chess match. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dia} & The day of the chess match \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a158248461cb65300965f2af5b0988e13}\label{class_partida_de_ajedrez_a158248461cb65300965f2af5b0988e13}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!setjugador@{setjugador}}
+\index{setjugador@{setjugador}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{setjugador()}{setjugador()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_persona}{Persona}} $\ast$ Partida\+De\+Ajedrez\+::setjugador (\begin{DoxyParamCaption}\item[{int}]{num\+Jugador,  }\item[{\mbox{\hyperlink{class_persona}{Persona}} $\ast$}]{nuevo\+Jugador }\end{DoxyParamCaption})}
+
+
+
+Sets a player for the chess match. 
+
+Modifica uno de los dos jugadores.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Jugador} & The number of the player (0 or 1) \\
+\hline
+{\em nuevo\+Jugador} & A pointer to the new player \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the new player
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Jugador\mbox{[}in\mbox{]}} & entero con el numero de jugador a modificar \\
+\hline
+{\em nuevo\+Jugador\mbox{[}in\mbox{]}} & puntero al nuevo\+Jugador \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+Modifica el Jugador de la posicion dada, si es correcta (1 o 2) 
+\end{DoxyPostcond}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Lanza} & excepcion si el numero de jugador es incorrecto \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+aux es el puntero al anterior jugador o 0 si no tenía. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_partida_de_ajedrez_a54b9394d9cdf42a48ab877ceaa2a7428}\label{class_partida_de_ajedrez_a54b9394d9cdf42a48ab877ceaa2a7428}} 
+\index{PartidaDeAjedrez@{PartidaDeAjedrez}!SetMes@{SetMes}}
+\index{SetMes@{SetMes}!PartidaDeAjedrez@{PartidaDeAjedrez}}
+\doxysubsubsection{\texorpdfstring{SetMes()}{SetMes()}}
+{\footnotesize\ttfamily void Partida\+De\+Ajedrez\+::\+Set\+Mes (\begin{DoxyParamCaption}\item[{int}]{mes }\end{DoxyParamCaption})}
+
+
+
+Sets the month of the chess match. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mes} & The month of the chess match\\
+\hline
+{\em mes} & The month of the chess match \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::invalid\+\_\+argument} & if the month is not between 1 and 12 \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_partida_de_ajedrez_8h}{Partida\+De\+Ajedrez.\+h}}\item 
+\mbox{\hyperlink{_partida_de_ajedrez_8cpp}{Partida\+De\+Ajedrez.\+cpp}}\end{DoxyCompactItemize}
