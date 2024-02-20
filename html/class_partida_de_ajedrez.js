@@ -1,0 +1,25 @@
+var class_partida_de_ajedrez =
+[
+    [ "PartidaDeAjedrez", "class_partida_de_ajedrez.html#a219201cfe7210d55f038c775151f28fb", null ],
+    [ "PartidaDeAjedrez", "class_partida_de_ajedrez.html#a8472cc78a20bfe05b196677abc18525b", null ],
+    [ "PartidaDeAjedrez", "class_partida_de_ajedrez.html#a3100f8f2fdcb0d7eb23ed6fd857fa935", null ],
+    [ "~PartidaDeAjedrez", "class_partida_de_ajedrez.html#abce184755d5bc2fbe62333dee48c114f", null ],
+    [ "GetAnio", "class_partida_de_ajedrez.html#a8849ad6cd81d328ce178963e977b52ab", null ],
+    [ "GetDia", "class_partida_de_ajedrez.html#ac64196b927e0122a3c1c75795b92082f", null ],
+    [ "GetMes", "class_partida_de_ajedrez.html#a5a15baf5a66b8f378cc20cc769e002cb", null ],
+    [ "getPieza", "class_partida_de_ajedrez.html#ad9a2e7acad6cdd8e5eaa8d9d21ca78d3", null ],
+    [ "mover", "class_partida_de_ajedrez.html#a71620fc73120cbcfcead526032eeab17", null ],
+    [ "nuevaPieza", "class_partida_de_ajedrez.html#aa330ebc3a4b0ce294c9bc847784e3777", null ],
+    [ "numPiezass", "class_partida_de_ajedrez.html#af14b2f99e86d3fd77111a01e3d4e2dbe", null ],
+    [ "SetAnio", "class_partida_de_ajedrez.html#a7bedc875a1963e9c2a54a101c38f223f", null ],
+    [ "SetDia", "class_partida_de_ajedrez.html#ae5c7a274bd72a0af132c2d02d3920f82", null ],
+    [ "setjugador", "class_partida_de_ajedrez.html#a158248461cb65300965f2af5b0988e13", null ],
+    [ "SetMes", "class_partida_de_ajedrez.html#a54b9394d9cdf42a48ab877ceaa2a7428", null ],
+    [ "anio", "class_partida_de_ajedrez.html#ae665e219de628064695a87f1670abd28", null ],
+    [ "dia", "class_partida_de_ajedrez.html#a1b212af9cd5d4be178ff34e24f6f48cf", null ],
+    [ "jugadores", "class_partida_de_ajedrez.html#a5052e2d568c76036389995de87453abc", null ],
+    [ "MAX_PIEZAS", "class_partida_de_ajedrez.html#a8cd8f5f02221d2c600bb8dff8d89026f", null ],
+    [ "mes", "class_partida_de_ajedrez.html#ac278aa8631b0b848c98a460d8c81746e", null ],
+    [ "numPiezas", "class_partida_de_ajedrez.html#ad04d1fcb1deb8b0421e07d866cbe5daf", null ],
+    [ "piezas", "class_partida_de_ajedrez.html#a82774074ae4f266fd55a33fe95765746", null ]
+];

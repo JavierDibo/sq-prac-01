@@ -1,0 +1,4 @@
+<map id="PartidaDeAjedrez::mover" name="PartidaDeAjedrez::mover">
+<area shape="rect" id="node1" title="Moves a chess piece to a new position." alt="" coords="5,5,170,33"/>
+<area shape="rect" id="node2" href="$class_pieza_de_ajedrez.html#a70dd00d4a0dac86e30adb9abc6243d22" title="Moves the chess piece to a new position." alt="" coords="218,5,374,33"/>
+</map>

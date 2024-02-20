@@ -5,10 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Member List</title>
+<title>proyecto-ajedrez: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -21,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">proyecto-ajedrez
    </div>
   </td>
  </tr>
@@ -45,6 +53,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_partida_de_ajedrez.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -59,7 +84,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">PartidaDeAjedrez Member List</div>  </div>
@@ -68,28 +92,37 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a>, including all inherited members.</p>
 <table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#ae665e219de628064695a87f1670abd28">anio</a></td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a1b212af9cd5d4be178ff34e24f6f48cf">dia</a></td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a8849ad6cd81d328ce178963e977b52ab">GetAnio</a>() const</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#ac64196b927e0122a3c1c75795b92082f">GetDia</a>() const</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a5a15baf5a66b8f378cc20cc769e002cb">GetMes</a>() const</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#ad9a2e7acad6cdd8e5eaa8d9d21ca78d3">getPieza</a>(int pos)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>MAX_PIEZAS</b> (defined in <a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a>)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a5052e2d568c76036389995de87453abc">jugadores</a></td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a8cd8f5f02221d2c600bb8dff8d89026f">MAX_PIEZAS</a></td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#ac278aa8631b0b848c98a460d8c81746e">mes</a></td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a71620fc73120cbcfcead526032eeab17">mover</a>(int pieza, int incFila, int incCol)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#aa330ebc3a4b0ce294c9bc847784e3777">nuevaPieza</a>(std::string nombreP, char colorP, int valorP, int filaP, char colP)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#af14b2f99e86d3fd77111a01e3d4e2dbe">numPiezass</a>(char c)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a219201cfe7210d55f038c775151f28fb">PartidaDeAjedrez</a>()=default</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a8472cc78a20bfe05b196677abc18525b">PartidaDeAjedrez</a>(int ddia, int mmes, int aanio)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a3100f8f2fdcb0d7eb23ed6fd857fa935">PartidaDeAjedrez</a>(const PartidaDeAjedrez &amp;orig)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#ad04d1fcb1deb8b0421e07d866cbe5daf">numPiezas</a></td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#af14b2f99e86d3fd77111a01e3d4e2dbe">numPiezass</a>(char c)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a219201cfe7210d55f038c775151f28fb">PartidaDeAjedrez</a>()=default</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a8472cc78a20bfe05b196677abc18525b">PartidaDeAjedrez</a>(int ddia, int mmes, int aanio)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a3100f8f2fdcb0d7eb23ed6fd857fa935">PartidaDeAjedrez</a>(const PartidaDeAjedrez &amp;orig)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a82774074ae4f266fd55a33fe95765746">piezas</a></td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a7bedc875a1963e9c2a54a101c38f223f">SetAnio</a>(int anio)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#ae5c7a274bd72a0af132c2d02d3920f82">SetDia</a>(int dia)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a158248461cb65300965f2af5b0988e13">setjugador</a>(int numJugador, Persona *nuevoJugador)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#a54b9394d9cdf42a48ab877ceaa2a7428">SetMes</a>(int mes)</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_partida_de_ajedrez.html#abce184755d5bc2fbe62333dee48c114f">~PartidaDeAjedrez</a>()</td><td class="entry"><a class="el" href="class_partida_de_ajedrez.html">PartidaDeAjedrez</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.16
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
+  </ul>
+</div>
 </body>
 </html>

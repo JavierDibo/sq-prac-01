@@ -1,0 +1,4 @@
+<map id="Alfil" name="Alfil">
+<area shape="rect" id="node1" title="This class represents a Bishop piece in a chess game." alt="" coords="41,81,84,109"/>
+<area shape="rect" id="node2" href="$class_pieza_de_ajedrez.html" title="Class representing a chess piece." alt="" coords="5,5,120,33"/>
+</map>

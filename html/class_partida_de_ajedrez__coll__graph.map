@@ -1,0 +1,5 @@
+<map id="PartidaDeAjedrez" name="PartidaDeAjedrez">
+<area shape="rect" id="node1" title="Class representing a chess game." alt="" coords="59,97,181,125"/>
+<area shape="rect" id="node2" href="$class_pieza_de_ajedrez.html" title="Class representing a chess piece." alt="" coords="5,5,120,33"/>
+<area shape="rect" id="node3" href="$class_persona.html" title="Class representing a person." alt="" coords="144,5,213,33"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Main function of the program." alt="" coords="5,109,55,137"/>
+<area shape="rect" id="node2" href="$class_pieza_de_ajedrez.html#a8c68309f6ae0f8a00e621a40db87049e" title="Gets the name of the chess piece." alt="" coords="110,5,298,33"/>
+<area shape="rect" id="node3" href="$class_partida_de_ajedrez.html#ad9a2e7acad6cdd8e5eaa8d9d21ca78d3" title="Retrieves a chess piece from the game." alt="" coords="113,57,295,85"/>
+<area shape="rect" id="node4" href="$class_partida_de_ajedrez.html#aa330ebc3a4b0ce294c9bc847784e3777" title="Creates a new chess piece and adds it to the game." alt="" coords="106,109,302,137"/>
+<area shape="rect" id="node5" href="$class_partida_de_ajedrez.html#af14b2f99e86d3fd77111a01e3d4e2dbe" title="Counts the number of chess pieces of a specific color." alt="" coords="103,161,305,189"/>
+<area shape="rect" id="node6" href="$class_partida_de_ajedrez.html#a158248461cb65300965f2af5b0988e13" title="Sets a player for the chess match." alt="" coords="109,213,299,241"/>
+</map>
